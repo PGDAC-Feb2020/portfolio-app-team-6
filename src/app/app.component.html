@@ -1,0 +1,17 @@
+<div class="container-fluid ">
+  <div class="row bg-info sticky-top" style="height: 75px">
+     <div class="col ">Portfolio</div> 
+
+    <div class="col d-flex align-items-center justify-content-end ">
+      <button
+        class="btn btn-sm btn-secondary mr-1 "
+        (click)="gotoRoute(item.link)"
+        *ngFor="let item of linksList"
+      >
+        {{ item.title }}
+      </button>
+    </div>
+  </div> 
+
+  <router-outlet></router-outlet>
+</div>

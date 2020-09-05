@@ -1,0 +1,28 @@
+.exp{
+    margin-top: 10px;
+    margin-left: 10px;  
+    margin-right: 10px; 
+    border: 2px solid; 
+    padding: 10px; 
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .2);
+}
+
+.work{
+    font-size: 35px; 
+    font-weight: bold; 
+    margin-bottom: 4px; 
+    display: flex; 
+    justify-content: center;
+}
+
+.job{
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-bottom: 8px;
+}
+
+.Appre{
+    font-weight: bold; 
+    font-size: 20px; 
+    margin-bottom: 8px;
+}

@@ -1,0 +1,56 @@
+<div class="container-fluid ">
+    <div class="row" 
+    style="display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;" >
+
+      <div class="col-12 bg d-flex flex-column justify-content-center align-items-center"
+      [formGroup]="fbFormGroup"
+      >
+        <div class="alert alert-danger" role="alert" *ngIf="uiInvalidCredential">
+          A simple danger alert—check it out!
+        </div>
+         
+        <div style="border: 2px solid;
+        box-shadow: 5px 10px 8px #888888;
+        padding: 30px;
+        border-radius: 15px;font-family: cursive;
+        font-size: 20px;">
+        <div class="h4" style="display: flex;justify-content: center;align-items: center;">Application Login</div>
+  
+        <div>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            class="form-control"
+            formControlName="username"
+          />
+        </div>
+  
+        <div class="mt-1">
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="form-control"
+            formControlName="password"
+          />
+        </div>
+  
+        <button
+          class="btn btn-sm btn-block btn-warning mt-2 mb-2"
+          [disabled]="!fbFormGroup.valid"
+          (click)="loginProcessHere()"
+          routerLink="/home"
+        >
+          Login Here
+        </button>
+
+        <div style="display: flex; justify-content: center;">
+        <a routerLink="/register">Register Here</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>

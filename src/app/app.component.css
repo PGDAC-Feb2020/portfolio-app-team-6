@@ -1,0 +1,20 @@
+.btn:hover{
+    background-color: rgb(96, 244, 219);
+
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: cursive; 
+    font-size: 20px;
+  
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: cursive; 
+    font-size: 30px;
+}
