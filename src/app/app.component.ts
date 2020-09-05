@@ -14,7 +14,7 @@ export class AppComponent {
     { title: 'Education', link: 'education'},
     { title: 'Experiance', link: 'experiance' },
     { title: 'Contact', link: 'contact' },
-    { title: 'Logout', link: 'logout' },
+    //{ title: 'Logout', link: 'logout' },
   ];
 
   constructor(private router: Router) {}

@@ -12,7 +12,9 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { LogoutComponent } from './logout/logout.component';
+import { ErrorComponent } from './error/error.component';
+import { ForgateComponent } from './forgate/forgate.component';
+//import { LogoutComponent } from './logout/logout.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { LogoutComponent } from './logout/logout.component';
     ExperianceComponent,
     LoginComponent,
     RegisterComponent,
-    LogoutComponent,
+    ErrorComponent,
+    ForgateComponent,
+    //LogoutComponent,
   
   ],
   imports: [

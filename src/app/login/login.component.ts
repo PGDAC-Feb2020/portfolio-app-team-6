@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
     const data = this.fbFormGroup.value;
 
     // ajax call
-    const url = 'http://localhost:1800/adduser';
+    const url = 'http://localhost:3500/adduser';
     const result: any = await this.http.post(url, data).toPromise();
     if (result.opr) {
       sessionStorage.setItem('sid', 'true');
